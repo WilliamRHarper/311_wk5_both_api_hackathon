@@ -10,7 +10,7 @@ class Connection {
           host: "127.0.0.1",
           user: "root",
           password: process.env.DB_PASSWORD,
-          database: "admin",
+          database: "hackathon-db",
         });
   
         return this.pool;
