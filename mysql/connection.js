@@ -7,7 +7,7 @@ class Connection {
         console.log("creating connection...");
         this.pool = mysql.createPool({
           connectionLimit: 100,
-          host: "127.0.0.1",
+          host: "35.184.122.107",
           user: "root",
           password: process.env.DB_PASSWORD,
           database: "hackathon-db",
